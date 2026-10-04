@@ -351,6 +351,15 @@ A las <span class="rojo"><b>20:00 hs</b></span>
 </style>
 </div>
 
+<div style="text-align:center; margin:20px auto;">
+    <button class="boton"
+        onclick="document.getElementById('imagenCena').style.display='flex'">
+        🍽️ CENA
+    </button>
+</div>
+
+
+
 <div class="tarjeta">
 
 <div style="font-size:28px;">
@@ -361,6 +370,17 @@ A las <span class="rojo"><b>20:00 hs</b></span>
 
 <b class="rojo">
 SALÓN DE JUBILADOS
+<div id="imagenCena"
+     onclick="this.style.display='none'"
+     style="display:none; position:fixed; inset:0; background:rgba(0,0,0,0.85); z-index:10000; align-items:center; justify-content:center; padding:20px;">
+
+  <img src="cena.jpeg"
+       alt="Cena de la fiesta"
+       onclick="event.stopPropagation()"
+       style="max-width:100%; max-height:90vh; border-radius:15px;">
+
+</div>
+
 </b>
 
 <br><br>
