@@ -278,7 +278,59 @@ MIS 15
 <div class="hora">
 A las <span class="rojo"><b>20:00 hs</b></span>
 </div>
+<!-- CÓDIGO DE VESTIMENTA -->
+<div class="vestimenta">
+    <div class="vestimenta-titulo">CÓDIGO DE VESTIMENTA</div>
+    <div class="vestimenta-formal">✨ FORMAL ELEGANTE ✨</div>
+    <div class="vestimenta-prohibido">
+        🚫 PROHIBIDO USAR COLOR ROJO Y PLATEADO
+    </div>
+</div>
 
+<style>
+.vestimenta {
+    text-align: center;
+    margin: 25px auto;
+    padding: 18px 15px;
+    max-width: 500px;
+    border: 1px solid rgba(255,255,255,0.35);
+    border-radius: 15px;
+    background: rgba(255,255,255,0.08);
+    backdrop-filter: blur(6px);
+    animation: brilloVestimenta 1.8s infinite;
+}
+
+.vestimenta-titulo {
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 8px;
+}
+
+.vestimenta-formal {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.vestimenta-prohibido {
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+
+@keyframes brilloVestimenta {
+    0%, 100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+
+    50% {
+        opacity: 0.45;
+        transform: scale(1.02);
+    }
+}
+</style>
 </div>
 
 <div class="tarjeta">
